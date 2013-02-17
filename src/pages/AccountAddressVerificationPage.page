@@ -1,4 +1,5 @@
 <apex:page standardcontroller="Account" extensions="AddressVerificationExtension">
+<<<<<<< HEAD
     <apex:includeScript value="{! $Resource.JQuery}"/>
     <script type="text/javascript">
       window.resizeTo(600,500);    
@@ -37,6 +38,11 @@
         		padding: 5px 5px;
         }        
     </style>
+=======
+    <script type="text/javascript">
+      window.resizeTo(600,500);       
+    </script>
+>>>>>>> d3b4d709658d165871e7e61cdc644bc790d7c96f
     <apex:sectionHeader title="Billing Address Verification" subtitle="{! account.Name}"/>
     <apex:form >
     <apex:pageBlock >
